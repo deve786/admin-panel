@@ -23,7 +23,7 @@ const MainLayout = () => {
           mode="inline"
           defaultSelectedKeys={["1"]}
           onClick={({ key }) => {
-            if (key == "signout") {
+            if (key === "signout") {
             } else {
               navigate(key);
             }
